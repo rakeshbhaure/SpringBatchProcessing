@@ -87,4 +87,7 @@ public class BatchConfiguration {
 			.build();
 	}
 	// end::jobstep[]
+
+
+	/*this project is used to transfer data from csv file to database*/
 }
