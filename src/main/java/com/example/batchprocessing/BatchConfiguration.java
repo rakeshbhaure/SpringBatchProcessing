@@ -28,6 +28,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 @EnableBatchProcessing
 public class BatchConfiguration {
 
+	/*this project is to transform data from csv file to the database*/
+
 	@Autowired
 	public JobBuilderFactory jobBuilderFactory;
 
