@@ -17,7 +17,7 @@ public class PersonItemProcessor implements ItemProcessor<Person, Person> {
 		final Person transformedPerson = new Person(firstName, lastName);
 
 		log.info("Converting (" + person + ") into (" + transformedPerson + ")");
-
+		System.out.println("rakesh kumar bhaure");
 		return transformedPerson;
 	}
 
